@@ -7216,3 +7216,57 @@ Binding(COMMAND+-,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 15:48:51.459
 !MESSAGE executing callback sts4.classpath.zHjHOxqV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:50:15.022
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zHjHOxqV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:50:15.024
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zHjHOxqV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:50:15.024
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:50:15.025
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zHjHOxqV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:40.767
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:40.768
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2e2f81fd[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=1007)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:40.769
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.769
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 1999ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.890
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.boGBEOMXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.891
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.891
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.891
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.891
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.891
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.boGBEOMX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.892
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.892
+!MESSAGE buffering callback sts4.classpath.boGBEOMX JavaWcp false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:42.892
+!MESSAGE executing callback sts4.classpath.boGBEOMX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-07 18:55:43.219
+!MESSAGE executing callback sts4.classpath.boGBEOMX SUCCESS [done]
