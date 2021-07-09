@@ -26,7 +26,9 @@ public class World {
 //		Slime.price = 6;
 //		System.out.println(Slime.price);
 		
-		Slime.price = 2;
-		System.out.println(Slime.getPrize());
+//		Slime.price = 2;
+//		System.out.println(Slime.getPrize());
+		
+		
 	}
 }
