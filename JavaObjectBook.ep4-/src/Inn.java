@@ -8,6 +8,6 @@ public class Inn {
 	
 	void lodge(Brave brave) {
 		brave.increaseHp(50);
-		System.out.println(brave.name + "のHPが" + brave.getHp() + "に回復した");
+//		System.out.println(brave.name + "のHPが" + brave.getHp() + "に回復した");
 	}
 }
