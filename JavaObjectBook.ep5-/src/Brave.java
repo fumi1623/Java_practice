@@ -25,7 +25,7 @@ public class Brave {
 		}
 	}
 	
-	public void attack(Slime enemy) {
+	public void attack(KingSlime enemy) {
 		int power = new java.util.Random().nextInt(10) + 1;
 		enemy.setHp(enemy.getHp() - power);
 		System.out.println(this.name + "は" + enemy.getName() + "を攻撃した。");
