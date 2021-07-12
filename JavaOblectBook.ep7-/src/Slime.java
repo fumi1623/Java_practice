@@ -6,7 +6,7 @@ public class Slime {
 	
 	public Slime() {
 		this.name = "名前はまだ無い";
-		this.hp = 10;
+		this.hp = 20;
 	}
 	
 	public Slime(String name) {
@@ -28,16 +28,6 @@ public class Slime {
 		} else {
 			this.hp = hp;
 		}
-	}
-	
-	public void attack(Brave enemy) {
-		enemy.setHp(enemy.getHp() - 2);
-		System.out.println(this.name + "は" + enemy.getName() + "を攻撃した。");
-		enemy.showStatus();
-		if (enemy.getHp() <= 0) {
-			System.out.println(enemy.getName() + "が死んだ！ ¥nGAME OVER");
-		}
-		
 	}
 	
 	public void showStatus() {
